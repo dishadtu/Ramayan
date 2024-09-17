@@ -60,9 +60,13 @@ Open each notebook in Jupyter or Colab and run the cells sequentially to execute
 
 # Evaluation Metrics
 **Answer Relevancy:** Measures how well the answer aligns with the question.
+
 **Faithfulness:** Checks if the answer accurately reflects the content of the documents.
+
 **Contextual Relevancy:** Assesses the relevance of the context used in generating the answer.
+
 **Hallucination:** Identifies whether the model generates incorrect or fabricated information.
+
 **Toxicity:** Evaluates the presence of harmful or inappropriate content.
 
 # Acknowledgements
