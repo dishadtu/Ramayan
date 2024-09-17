@@ -5,24 +5,32 @@ This repository contains Python code for evaluating fine-tuned Language Models (
 The project includes several Jupyter notebooks that:
 
 **Process PDF Documents**: Load and index documents from the Ramayana.
+
 **Query Models**: Utilize various fine-tuned language models to answer specific questions.
+
 **Evaluate Responses**: Assess the performance of the models using different evaluation metrics.
 
 # Notebooks and Scripts
 **1. RAMGPT_Openchat_3_5.ipynb**
 **Description:** Implements a RAG pipeline using the OpenChat 3.5 model. Loads PDF documents, creates an index, queries the model, and evaluates the responses.
+
 **Features:**
 Load and index documents.
 Query using OpenChat 3.5.
 Evaluate using metrics like Answer Relevancy and Faithfulness.
+
 **2. LLAMA2_zephyr7B.ipynb**
 **Description:** Uses the Zephyr 7B model for the RAG pipeline. Similar to the OpenChat implementation but with different model configurations and evaluation criteria.
+
 **Features:**
 Load and index documents.
 Query using Zephyr 7B.
 Evaluate using metrics such as Contextual Relevancy and Hallucination.
+
 **3. LLAMA2_falcon7B.ipynb**
+
 **Description:** Demonstrates the RAG pipeline using the Falcon 7B model. Includes loading documents, querying the model, and evaluating responses.
+
 **Features:**
 Load and index documents.
 Query using Falcon 7B.
