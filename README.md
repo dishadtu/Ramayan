@@ -33,15 +33,14 @@ Load and index documents.
 Query using Zephyr 7B.
 Evaluate using metrics such as Contextual Relevancy and Hallucination.
 
-**3. LLAMA2_falcon7B.ipynb**
+**3. `NurtureAI_Model.ipynb`**
 
-**Description:**
-Demonstrates the RAG pipeline using the Falcon 7B model. Includes loading documents, querying the model, and evaluating responses.
-
-**Features:**
+**Description**: Implements a RAG pipeline using the NurtureAI model. This notebook follows similar steps as the other implementations but with specific configurations for NurtureAI.
+**Features**:
 Load and index documents.
-Query using Falcon 7B.
-Evaluate using metrics including Toxicity and Answer Relevancy.
+Query using NurtureAI.
+Evaluate using various metrics such as Answer Relevancy, Faithfulness, and Contextual Relevancy.
+
 
 # Installation
 Ensure you have Python 3.8 or later. Install the required packages using:
