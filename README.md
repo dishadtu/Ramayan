@@ -4,26 +4,26 @@ This repository contains Python code for evaluating fine-tuned Language Models (
 # Overview
 The project includes several Jupyter notebooks that:
 
-Process PDF Documents: Load and index documents from the Ramayana.
-Query Models: Utilize various fine-tuned language models to answer specific questions.
-Evaluate Responses: Assess the performance of the models using different evaluation metrics.
+**Process PDF Documents**: Load and index documents from the Ramayana.
+**Query Models**: Utilize various fine-tuned language models to answer specific questions.
+**Evaluate Responses**: Assess the performance of the models using different evaluation metrics.
 
 # Notebooks and Scripts
-1. RAMGPT_Openchat_3_5.ipynb
-Description: Implements a RAG pipeline using the OpenChat 3.5 model. Loads PDF documents, creates an index, queries the model, and evaluates the responses.
-Features:
+**1. RAMGPT_Openchat_3_5.ipynb**
+**Description:** Implements a RAG pipeline using the OpenChat 3.5 model. Loads PDF documents, creates an index, queries the model, and evaluates the responses.
+**Features:**
 Load and index documents.
 Query using OpenChat 3.5.
 Evaluate using metrics like Answer Relevancy and Faithfulness.
-2. LLAMA2_zephyr7B.ipynb
-Description: Uses the Zephyr 7B model for the RAG pipeline. Similar to the OpenChat implementation but with different model configurations and evaluation criteria.
-Features:
+**2. LLAMA2_zephyr7B.ipynb**
+**Description:** Uses the Zephyr 7B model for the RAG pipeline. Similar to the OpenChat implementation but with different model configurations and evaluation criteria.
+**Features:**
 Load and index documents.
 Query using Zephyr 7B.
 Evaluate using metrics such as Contextual Relevancy and Hallucination.
-3. LLAMA2_falcon7B.ipynb
-Description: Demonstrates the RAG pipeline using the Falcon 7B model. Includes loading documents, querying the model, and evaluating responses.
-Features:
+**3. LLAMA2_falcon7B.ipynb**
+**Description:** Demonstrates the RAG pipeline using the Falcon 7B model. Includes loading documents, querying the model, and evaluating responses.
+**Features:**
 Load and index documents.
 Query using Falcon 7B.
 Evaluate using metrics including Toxicity and Answer Relevancy.
@@ -44,16 +44,13 @@ Adjust Configurations: Modify model names, paths, and evaluation parameters in e
 Open each notebook in Jupyter or Colab and run the cells sequentially to execute the RAG pipeline, query the model, and evaluate the results.
 
 # Evaluation Metrics
-Answer Relevancy: Measures how well the answer aligns with the question.
-Faithfulness: Checks if the answer accurately reflects the content of the documents.
-Contextual Relevancy: Assesses the relevance of the context used in generating the answer.
-Hallucination: Identifies whether the model generates incorrect or fabricated information.
-Toxicity: Evaluates the presence of harmful or inappropriate content.
-Contributing
-Contributions are welcome! Please submit issues or pull requests to enhance the functionality of the project.
-
+**Answer Relevancy:** Measures how well the answer aligns with the question.
+**Faithfulness:** Checks if the answer accurately reflects the content of the documents.
+**Contextual Relevancy:** Assesses the relevance of the context used in generating the answer.
+**Hallucination:** Identifies whether the model generates incorrect or fabricated information.
+**Toxicity:** Evaluates the presence of harmful or inappropriate content.
 
 # Acknowledgements
-Hugging Face: For providing pre-trained models.
-Langchain: For tools used in embedding and indexing.
-DeepEval: For evaluation metrics.
+**Hugging Face**: For providing pre-trained models.
+**Langchain**: For tools used in embedding and indexing.
+**DeepEval**: For evaluation metrics.
