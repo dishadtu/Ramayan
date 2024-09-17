@@ -70,6 +70,9 @@ Open each notebook in Jupyter or Colab and run the cells sequentially to execute
 **Toxicity:** Evaluates the presence of harmful or inappropriate content.
 
 # Acknowledgements
+
 **Hugging Face**: For providing pre-trained models.
+
 **Langchain**: For tools used in embedding and indexing.
+
 **DeepEval**: For evaluation metrics.
