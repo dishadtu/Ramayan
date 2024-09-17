@@ -33,7 +33,7 @@ Load and index documents.
 Query using Zephyr 7B.
 Evaluate using metrics such as Contextual Relevancy and Hallucination.
 
-**3. `NurtureAI_Model.ipynb`**
+**3. NurtureAI_Model.ipynb**
 
 **Description**: Implements a RAG pipeline using the NurtureAI model. This notebook follows similar steps as the other implementations but with specific configurations for NurtureAI.
 **Features**:
